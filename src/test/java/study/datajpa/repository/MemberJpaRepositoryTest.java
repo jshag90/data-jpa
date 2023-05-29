@@ -32,7 +32,7 @@ class MemberJpaRepositoryTest {
     }
 
     @Test
-    public void basciCRUD(){
+    public void basicCRUD(){
         Member member1 = new Member("member1");
         Member member2 = new Member("member2");
         memberJpaRepository.save(member1);
